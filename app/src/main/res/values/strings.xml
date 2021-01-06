@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GCalendarSniffer</string>
+    <string name="close">Close</string>
+    <string name="organizer">(Organizer)</string>
+    <string name="from">From\u00A0</string>
+    <string name="to">\u00A0to\u00A0</string>
+</resources>
