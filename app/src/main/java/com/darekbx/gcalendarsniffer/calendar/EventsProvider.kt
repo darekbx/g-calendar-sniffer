@@ -86,9 +86,6 @@ class EventsProvider(val context: Context) {
                         -- Show events which starts from ceratin date
                         ${CalendarContract.Events.DTSTART} > ? 
                         
-                        -- Don't show all day events
-                        AND ${CalendarContract.Events.ALL_DAY} = 0 
-                        
                         -- Don't show reccuring events
                         AND ${CalendarContract.Events.RRULE} IS NULL AND ${CalendarContract.Events.ORIGINAL_INSTANCE_TIME} IS NULL 
                          
